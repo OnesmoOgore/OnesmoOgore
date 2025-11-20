@@ -321,7 +321,7 @@ When I'm not debugging firmware or tuning PID loops, you'll find me:
 
 ### Achievements
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=OnesmoOgore&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4)
+![Trophy](https://github.com/OnesmoOgore?tab=achievements)
 
 </div>
 

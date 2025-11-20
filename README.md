@@ -323,11 +323,6 @@ When I'm not debugging firmware or tuning PID loops, you'll find me:
 
 ![Trophy](https://github-profile-trophy.vercel.app/?username=OnesmoOgore&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4)
 
-### Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
 </div>
 
 ---

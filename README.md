@@ -15,16 +15,17 @@
 
 ## 🎯 What I Do
 
-I build software that bridges **hardware and intelligence** — from low-level embedded firmware to desktop control interfaces, with expertise in:
+**13+ years building software for medical device robotics and automation systems** — from embedded firmware to desktop control interfaces, specializing in:
 
-- 🎛️ **Embedded Systems**: C/C++ firmware, microcontrollers, device drivers, motion control
-- 🤖 **Robotics & Automation**: Gantry systems, motion profiles, PID control, sensor integration
-- 🔬 **Imaging & Optics**: Color science (XYZ/Lab, ΔE2000), spectral analysis, medical imaging pipelines
-- 🖥️ **Desktop Tools**: C#/.NET (WPF), device control interfaces, test automation frameworks
+- 🎛️ **Embedded Systems**: C/C++ firmware for dsPIC microcontrollers, motor control, device drivers, real-time systems
+- 🤖 **Robotics & Automation**: Medical diagnostics robotics, biobanking systems, servo drives, motion control, sensor integration
+- 🔬 **Imaging & Color Science**: Spectral analysis, color correction algorithms, Bayer demosaicing, XYZ/Lab/ICC pipelines, EmguCV/OpenCV
+- 🖥️ **Desktop Applications**: C#/.NET/WPF device control interfaces, MVVM architecture, test automation, data visualization
+- 🏥 **Medical Devices**: FDA-regulated systems, V&V protocols, compliance documentation, diagnostic instrumentation
 
 ### 🚀 Currently Seeking Opportunities In:
 
-> **Robotics Software** | **Embedded Systems** | **Medical Device Software** | **Imaging/Optics** | **CAD/AI Integration**
+> **Medical Device Software** | **Robotics & Automation** | **Embedded Systems** | **Imaging/Machine Vision** | **CAD/AI Integration**
 >
 > Especially interested in roles involving device control, test automation, or mechatronic system integration
 
@@ -38,50 +39,62 @@ I build software that bridges **hardware and intelligence** — from low-level e
 
 ### Languages & Frameworks
 ```
-Primary
+Primary (13+ years)
 ├─ C / C++          ████████████░ Expert
-├─ C# (.NET/WPF)    ███████████░░ Advanced
+├─ C# (.NET/WPF)    ████████████░ Expert
 └─ Python           ██████████░░░ Advanced
 
 Secondary
-├─ LabVIEW          ██████░░░░░░░ Intermediate
+├─ LabVIEW          ████████░░░░░ Proficient
 ├─ MATLAB           ██████░░░░░░░ Intermediate
-└─ Shell/Batch      ███████░░░░░░ Proficient
+├─ VB.NET           ██████░░░░░░░ Intermediate
+└─ SQL/HTML/XML     ██████░░░░░░░ Intermediate
 ```
 
-### Development Tools
-- **IDEs**: Visual Studio, MPLAB X, VS Code
-- **Version Control**: Git, GitHub
-- **Build Systems**: CMake, Make, MSBuild
-- **Testing**: pytest, Google Test, unit testing frameworks
+### Development Tools & Platforms
+- **IDEs**: Visual Studio Enterprise, MPLAB X IDE, VS Code
+- **Version Control**: Git, GitHub Enterprise
+- **Frameworks**: .NET Framework, OpenCV, EmguCV
+- **PLM/ALM**: Jira, Agile PLM
+- **Testing**: pytest, unit testing, V&V protocols
 
 </td>
 <td valign="top" width="50%">
 
 ### Domain Expertise
 
-**Embedded & Low-Level**
-- Microcontroller programming (PIC, dsPIC)
-- UART, I2C, SPI device communication
-- Interrupt handling & RTOS concepts
+**Embedded Firmware Development**
+- dsPIC microcontroller programming (PIC18F, dsPIC33)
+- Motor control & servo drive programming/tuning
+- UART, I2C, SPI, CAN bus communication
+- Interrupt handling & real-time systems
 - Device drivers & firmware architecture
 
-**Robotics & Motion Control**
-- PID control loops & tuning
-- Motion profiles & trajectory planning
-- Gantry systems & actuator control
-- Sensor integration & calibration
+**Robotics & Automation Systems**
+- Medical diagnostics & biobanking robotics (13+ yrs)
+- PID control loops & servo tuning
+- Gantry systems & multi-axis motion control
+- Actuator control & sensor integration
+- System commissioning & troubleshooting
 
-**Imaging & Color Science**
-- Spectral → XYZ → Lab conversions
-- ΔE2000 color difference calculations
-- ICC profiles & color pipeline validation
-- OpenCV / EmguCV image processing
+**Imaging & Machine Vision**
+- Spectral data analysis & color correction
+- Bayer demosaicing algorithms
+- XYZ/Lab color space conversions & ΔE2000
+- ICC profile implementation & validation
+- OpenCV/EmguCV image processing
+- Cognex machine vision systems
 
-**CAD & Mechanical Systems**
-- SolidWorks, AutoCAD
-- ANSYS simulation (mechanical/optical)
-- Mechatronic system design context
+**Medical Device Development**
+- FDA-regulated device design & validation
+- V&V protocols & compliance documentation
+- Whole slide imaging & cytology systems
+- System integration & troubleshooting
+
+**CAD & Mechanical Engineering**
+- SolidWorks (Certified Associate)
+- ANSYS FEA (structural, thermal, fluid)
+- Electromechanical design & analysis
 
 </td>
 </tr>
@@ -134,16 +147,17 @@ Automated test framework for embedded devices
 <tr>
 <td>
 
-#### gantry-ros2-motion-control
-2-axis gantry simulation with ROS2 control
+#### servo-drive-tuning-toolkit
+Servo drive configuration and tuning utilities
 
-**Tech**: `C++` `ROS2` `Motion Control` `Trajectory Planning`
+**Tech**: `C` `C++` `Motor Control` `Servo Drives` `CAN Bus`
 
 **Features**:
-- ROS2 node for position control
-- Limit checking & soft stops
-- Simple trajectory planning
-- Pub/Sub architecture
+- Automated servo parameter tuning scripts
+- Motion profile generation & testing
+- Performance data logging & analysis
+- Multi-axis coordination examples
+- Troubleshooting diagnostic tools
 
 </td>
 </tr>
@@ -201,12 +215,12 @@ I'm actively looking to contribute to projects in:
 
 | Domain | Projects of Interest | What I Can Contribute |
 |--------|---------------------|----------------------|
-| 🤖 **Robotics** | ROS2, micro-ROS, ArduPilot, PX4 | C++ nodes, device drivers, motion control algorithms, documentation |
-| 👁️ **Computer Vision** | OpenCV, scikit-image | Image processing examples, C++ optimizations, sample code, bug fixes |
-| 🎨 **Color Science** | OpenColorIO, LittleCMS | Color pipeline validation, ICC profile handling, test cases |
+| 👁️ **Computer Vision** | OpenCV, EmguCV, scikit-image | Image processing algorithms, C#/.NET bindings, color correction, sample code |
+| 🎨 **Color Science** | OpenColorIO, LittleCMS, colour-science | Color pipeline validation, ICC profile handling, spectral analysis, test cases |
 | 🏥 **Medical Imaging** | 3D Slicer, ITK, VTK, MITK | C++ modules, device integration, imaging pipeline improvements |
+| 🤖 **Robotics/Embedded** | micro-ROS, ArduPilot, embedded libraries | Device drivers, motor control algorithms, embedded C/C++, documentation |
 
-**Looking to collaborate?** If you maintain a project in robotics, embedded systems, imaging, or device control and are open to contributions, let's connect!
+**Looking to collaborate?** If you maintain a project in medical imaging, embedded systems, machine vision, or device control and are open to contributions, let's connect!
 
 ---
 

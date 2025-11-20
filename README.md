@@ -23,11 +23,11 @@
 - 🖥️ **Desktop Applications**: C#/.NET/WPF device control interfaces, MVVM architecture, test automation, data visualization
 - 🏥 **Medical Devices**: FDA-regulated systems, V&V protocols, compliance documentation, diagnostic instrumentation
 
-### 🚀 Currently Seeking Opportunities In:
+### 🚀 Open to Opportunities In:
 
 > **Medical Device Software** | **Robotics & Automation** | **Embedded Systems** | **Imaging/Machine Vision** | **CAD/AI Integration**
 >
-> Especially interested in roles involving device control, test automation, or mechatronic system integration
+> Especially interested in roles involving device control, test automation, or mechatronic system integration where I can leverage my FDA-regulated systems experience and technical depth
 
 ---
 
@@ -102,9 +102,45 @@ Secondary
 
 ---
 
+## 💼 Professional Experience
+
+### **Senior Systems Engineer** | Hologic, Inc. | 2020 – Present
+*Diagnostic Instrument Engineering – Medical Robotics & Imaging Systems*
+
+Developing FDA-regulated diagnostic imaging systems used in medical facilities worldwide. Leading full-stack development from embedded firmware to desktop applications.
+
+**Key Contributions:**
+- 🔬 **Imaging & Color Science**: Developed spectral-to-Lab color calibration algorithms for whole slide imaging systems, implementing Bayer demosaicing, ICC profile validation, and ΔE2000 color accuracy metrics
+- 🎛️ **Embedded Firmware**: Programmed dsPIC microcontrollers for real-time motor control, sensor interfacing (UART, I2C, SPI, CAN bus), and device communication protocols
+- 🖥️ **Desktop Applications**: Built C#/.NET/WPF device control interfaces using MVVM architecture for system configuration, real-time monitoring, and data visualization
+- 🤖 **Automation & Robotics**: Integrated Cognex machine vision systems, programmed servo drives, and developed motion control algorithms for automated cytology instrumentation
+- 🏥 **FDA Compliance**: Authored V&V protocols, compliance documentation, and participated in design reviews for FDA-regulated Class II medical devices
+- 🔧 **System Integration**: Troubleshot complex electro-mechanical systems involving motors, controls, optics, and embedded firmware across multiple subsystems
+
+**Technologies:** C/C++, C#, .NET, WPF, Python, dsPIC, LabVIEW, EmguCV/OpenCV, Cognex, Jira, Agile PLM, MPLAB X, Visual Studio, SolidWorks
+
+---
+
+### **Systems Engineer** | Hamilton Storage Technologies | 2011 – 2019
+*Biobanking & Sample Management Robotics R&D*
+
+Led design, testing, and optimization of complex biobanking automation systems. Managed multi-axis robotics, servo drive programming, and system commissioning at customer sites.
+
+**Key Achievements:**
+- 🏆 **Promoted after 6 months** from Mechanical Designer to Systems Engineer based on technical leadership and problem-solving abilities
+- 🔧 **Redesigned robotic fingers**, reducing mechanical failures by 40%, improving strength, and cutting costs through FEA-driven design optimization
+- ⚡ **Optimized shelf-seeking sensor robotics**, diagnosing and resolving performance errors through systematic hardware and software analysis
+- 📊 **Programmed and tuned servo drives** for consistent performance, reducing errors during production and on-site commissioning
+- 📝 **Created troubleshooting guide** for service engineers, reducing problem resolution times and empowering cross-functional teams
+- 🚀 **Managed system upgrades** of 2 complex robotics platforms, ensuring minimal downtime through proactive maintenance and strategic scheduling
+
+**Technologies:** C/C++, C#, LabVIEW, Python, servo drives, CAN bus, SolidWorks, ANSYS FEA, motor control, automation systems
+
+---
+
 ## 📦 Portfolio Projects
 
-Here are projects that showcase my technical capabilities across different domains:
+Showcasing technical capabilities through real-world project implementations:
 
 ### 🎛️ Embedded Systems
 
@@ -112,30 +148,37 @@ Here are projects that showcase my technical capabilities across different domai
 <tr>
 <td width="50%">
 
-#### [embedded-motor-pid-controller](https://github.com/OnesmoOgore/embedded-motor-pid-controller)
-Embedded C PID controller for DC motor control
+#### [embedded-motor-pid-controller](https://github.com/OnesmoOgore/embedded-motor-pid-controller) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+**Production-ready PID controller for DC motor control**
 
-**Tech**: `C` `Microcontroller` `PID Control` `Motor Control`
+43 commits • C (73%) • Python (15%) • MIT License
+
+**Tech**: `C` `dsPIC` `PID Control` `Unity Tests` `Python Simulation`
 
 **Features**:
-- Clean FSM-based architecture
-- Tunable PID parameters
-- Simulation plots & documentation
-- UART communication interface
+- Anti-windup integrator & derivative filtering
+- 12 unit tests with Unity framework
+- CMake cross-platform build system
+- Python motor dynamics simulation
+- CI/CD with GitHub Actions
+- [📄 Documentation](https://onesmoogore.github.io/embedded-motor-pid-controller/)
 
 </td>
 <td width="50%">
 
-#### embedded-test-harness
-Automated test framework for embedded devices
+#### embedded-test-harness ![Status](https://img.shields.io/badge/Status-Coming_Soon-blue)
+**Automated test framework for embedded devices**
 
-**Tech**: `Python` `pytest` `Serial` `Test Automation`
+*Target: Q1 2026*
 
-**Features**:
-- Automated hardware-in-the-loop testing
+**Tech**: `Python` `pytest` `Serial` `Hardware-in-the-Loop`
+
+**Planned Features**:
+- Automated HIL testing protocols
 - Serial command/response validation
-- JSON test result logging
+- JSON test result logging & reporting
 - Pass/fail criteria engine
+- Multi-device test orchestration
 
 </td>
 </tr>
@@ -147,17 +190,19 @@ Automated test framework for embedded devices
 <tr>
 <td>
 
-#### servo-drive-tuning-toolkit
-Servo drive configuration and tuning utilities
+#### servo-drive-tuning-toolkit ![Status](https://img.shields.io/badge/Status-In_Development-yellow)
+**Servo drive configuration and motion control utilities**
+
+*Target: Q2 2026*
 
 **Tech**: `C` `C++` `Motor Control` `Servo Drives` `CAN Bus`
 
-**Features**:
+**Planned Features**:
 - Automated servo parameter tuning scripts
-- Motion profile generation & testing
+- Motion profile generation & validation
 - Performance data logging & analysis
 - Multi-axis coordination examples
-- Troubleshooting diagnostic tools
+- Diagnostic & troubleshooting tools
 
 </td>
 </tr>
@@ -169,16 +214,19 @@ Servo drive configuration and tuning utilities
 <tr>
 <td>
 
-#### spectral-to-lab-color-pipeline
-Spectral data processing & color validation tools
+#### spectral-to-lab-color-pipeline ![Status](https://img.shields.io/badge/Status-Coming_Soon-blue)
+**Spectral data processing & color validation toolkit**
 
-**Tech**: `Python` `NumPy` `Color Science` `Data Analysis`
+*Target: Q2 2026*
 
-**Features**:
+**Tech**: `Python` `NumPy` `Colour Science` `ICC Profiles`
+
+**Planned Features**:
 - Spectral → XYZ → Lab conversion pipeline
-- ΔE2000 color difference calculations
-- ICC profile handling
-- Validation & visualization plots
+- ΔE2000 & ΔE94 color difference metrics
+- ICC profile creation & validation
+- Batch processing capabilities
+- Visualization & reporting tools
 
 </td>
 </tr>
@@ -190,22 +238,42 @@ Spectral data processing & color validation tools
 <tr>
 <td>
 
-#### wpf-device-control-demo
-Desktop device control application
+#### wpf-device-control-demo ![Status](https://img.shields.io/badge/Status-Coming_Soon-blue)
+**Professional device control application**
 
-**Tech**: `C#` `.NET` `WPF` `MVVM` `Serial Communication`
+*Target: Q1 2026*
 
-**Features**:
-- Clean MVVM architecture
+**Tech**: `C#` `.NET 6` `WPF` `MVVM` `Serial Communication`
+
+**Planned Features**:
+- Clean MVVM architecture with DI
 - Real-time device communication
 - Command logging & error handling
 - Mock device firmware (C)
+- Responsive UI with live charting
 
 </td>
 </tr>
 </table>
 
-> 🚧 **Note**: These projects are actively being developed and documented. Check back soon for complete implementations with architecture diagrams, build instructions, and example datasets.
+---
+
+### 📅 Project Roadmap
+
+**2025 Q4 (Current)**
+- ✅ Complete embedded-motor-pid-controller
+- ✅ Set up GitHub Pages documentation
+- 🔄 Begin open source contributions
+
+**2026 Q1**
+- 🎯 Launch embedded-test-harness
+- 🎯 Launch wpf-device-control-demo
+- 🎯 5+ open source contributions
+
+**2026 Q2+**
+- 🎯 Launch servo-drive-tuning-toolkit
+- 🎯 Launch spectral-to-lab-color-pipeline
+- 🎯 Establish regular open source involvement
 
 ---
 
@@ -237,13 +305,28 @@ When I'm not debugging firmware or tuning PID loops, you'll find me:
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Activity & Stats
 
 <div align="center">
 
+### Contribution Stats
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=OnesmoOgore&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OnesmoOgore&layout=compact&theme=dark&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=OnesmoOgore&theme=dark&hide_border=true)
+
+### Language Distribution
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OnesmoOgore&layout=compact&theme=dark&hide_border=true&langs_count=8)
+
+### Achievements
+
+![Trophy](https://github-profile-trophy.vercel.app/?username=OnesmoOgore&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4)
+
+### Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 </div>
 

@@ -15,7 +15,7 @@
 
 ## 🎯 What I Do
 
-**13+ years building software for medical device robotics and automation systems** — from embedded firmware to desktop control interfaces, specializing in:
+**13+ years building software & designing instrumentation for medical device robotics and automation systems** — from embedded firmware to desktop control interfaces & hardware design, specializing in:
 
 - 🎛️ **Embedded Systems**: C/C++ firmware for dsPIC microcontrollers, motor control, device drivers, real-time systems
 - 🤖 **Robotics & Automation**: Medical diagnostics robotics, biobanking systems, servo drives, motion control, sensor integration
@@ -27,7 +27,7 @@
 
 > **Medical Device Software** | **Robotics & Automation** | **Embedded Systems** | **Imaging/Machine Vision** | **CAD/AI Integration**
 >
-> Especially interested in roles involving device control, test automation, or mechatronic system integration where I can leverage my FDA-regulated systems experience and technical depth
+> Especially interested in roles involving device control, test automation, or mechatronic system integration, where I can leverage my FDA-regulated systems experience and technical depth
 
 ---
 

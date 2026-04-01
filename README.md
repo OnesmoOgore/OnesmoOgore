@@ -39,7 +39,7 @@
 
 ### Languages & Frameworks
 ```
-Primary (13+ years)
+Primary (8+ years)
 ├─ C / C++          ████████████░ Expert
 ├─ C# (.NET/WPF)    ████████████░ Expert
 └─ Python           ██████████░░░ Advanced
